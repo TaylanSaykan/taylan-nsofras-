@@ -1,0 +1,32 @@
+/* RecipeCard.css */
+.recipe-card {
+    border: 1px solid #ddd;
+    padding: 1.2rem;
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .recipe-image {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  /* delete button  */
+.btn-delete {
+  margin: 0 auto;
+  padding: 0.2rem 2rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: .6rem;
+}
+
+.btn-delete:hover{
+  background-color: rgb(216, 56, 56);
+}
